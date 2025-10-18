@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="450" viewBox="0 0 800 450" fill="none">
+  <rect width="800" height="450" rx="12" fill="#0b1220" />
+  <rect x="24" y="24" width="752" height="402" rx="8" fill="#000" stroke="#1f2937" />
+  <text x="50%" y="50%" fill="#9ca3af" font-size="20" text-anchor="middle" dominant-baseline="middle">Camera preview (allow camera to see live stream)</text>
+  <rect x="36" y="366" width="200" height="48" rx="8" fill="#061826" />
+  <text x="136" y="396" fill="#06b6d4" font-size="14" text-anchor="middle" dominant-baseline="middle">Mirror</text>
+</svg>

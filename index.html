@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Camera Stream</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main>
+      <h1>Camera Stream</h1>
+
+      <div class="controls">
+        <label for="videoSource">Camera:</label>
+        <select id="videoSource"></select>
+        <button id="startBtn">Start</button>
+        <button id="stopBtn" disabled>Stop</button>
+        <button id="mirrorBtn" title="Toggle mirror">Mirror</button>
+      </div>
+
+      <div class="viewer">
+        <video id="video" playsinline autoplay muted></video>
+        <div id="message" class="message"></div>
+      </div>
+    </main>
+
+    <script src="main.js"></script>
+  </body>
+</html>
